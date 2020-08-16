@@ -1,0 +1,16 @@
+package typeComparisonOperator;
+
+public class TypeComparisonOperator {
+	public static void main(String[] args) {
+		Cat cat = new Cat();
+		Dog dog = new Dog();
+
+		if (cat instanceof Animal) {
+			System.out.println("Cat is an animal....");
+		}
+
+		if (dog instanceof Mammal) {
+			System.out.println("Dog is an Mammal....");
+		}
+	}
+}
